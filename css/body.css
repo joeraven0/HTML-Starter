@@ -1,0 +1,10 @@
+body{
+  display: grid;
+  grid-template-areas: 'header header' 'nav nav' 'main aside' 'footer footer';
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px 100px 100px 100px;
+}
+body *{
+  background-color: orange;
+}
